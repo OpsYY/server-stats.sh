@@ -1,4 +1,5 @@
 ﻿# server-stats.sh
+https://github.com/OpsYY/server-stats.sh
  The script prints the following on linux based OS:
  CPU Usage: Retrieved using the top command.
  RAM Usage: Calculated in MB using the free -m command.
