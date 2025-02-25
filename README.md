@@ -1,5 +1,5 @@
 ﻿# server-stats.sh
-https://github.com/OpsYY/server-stats.sh
+
  The script prints the following on linux based OS:
  CPU Usage: Retrieved using the top command.
  RAM Usage: Calculated in MB using the free -m command.
@@ -15,3 +15,12 @@ Load average
 Number of active users
 Failed SSH login attempts
 You can automate this script with a cron job to receive regular reports!
+
+
+
+
+
+
+
+
+https://roadmap.sh/projects/server-stats
