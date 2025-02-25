@@ -16,6 +16,11 @@ Number of active users
 Failed SSH login attempts
 You can automate this script with a cron job to receive regular reports!
 
+How to run:
+-Move it to your linux based host
+- chmod 777 server-stats.sh
+- bash server-stats.sh
+
 
 
 
