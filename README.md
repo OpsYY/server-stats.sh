@@ -1,8 +1,16 @@
 ﻿# server-stats.sh
-The script named server-stats.sh can analyse basic server performance stats. the script runs on any Linux server and it gives you the following stats:
+ The script prints the following on linux based OS:
+ CPU Usage: Retrieved using the top command.
+ RAM Usage: Calculated in MB using the free -m command.
+ Disk Usage: Checked using the df -h / command to monitor the system’s main disk.
+ Top 5 Processes by CPU Usage: Listed using the ps command to find the highest CPU-consuming processes.
+ Top 5 Processes by RAM Usage: Sorted using the ps command based on memory consumption.
 
-Total CPU usage
-Total memory usage (Free vs Used including percentage)
-Total disk usage (Free vs Used including percentage)
-Top 5 processes by CPU usage
-Top 5 processes by memory usage
+Additional Information:
+
+Operating system version
+Server uptime
+Load average
+Number of active users
+Failed SSH login attempts
+You can automate this script with a cron job to receive regular reports!
